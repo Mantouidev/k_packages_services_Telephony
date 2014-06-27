@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (C) 2013 The OmniROM Project
+
+  This program is free software: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+  the Free Software Foundation, either version 2 of the License, or
+  (at your option) any later version.
+
+  This program is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+
+  You should have received a copy of the GNU General Public License
+  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ -->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="non_intrusive_incall_title">免打扰</string>
+    <string name="non_intrusive_incall_summary">在来电时使用免打扰对话框</string>
+
+    <string name="call_end_sound_title">通话结束音效</string>
+    <string name="call_end_sound_summary">通话结束后音效提醒</string>
+
+    <!-- Sprint MWI Quirk: Phantom message wait indicator workaround -->
+    <string name="mwi_notification_title">消息等待指示器</string>
+    <string name="mwi_notification_summary">在语音邮件通知时显示消息等待指示器</string>
+
+    <!-- Setting title for the flip action setting. -->
+    <string name="flip_action_title">翻转动作</string>
+
+    <!-- Dialog title of the flip action setting. -->
+    <string name="flip_action_dialog_title">翻转设备将 \u2026</string>
+
+    <!-- Setting summary for the flip action setting. -->
+    <string name="flip_action_summary">翻转设备将 <xliff:g id="action">%s</xliff:g></string>
+
+    <!-- Values for flip action array entries -->
+    <string name="entry_do_nothing">不产生任何作用</string>
+    <string name="entry_mute_ringer">停止响铃</string>
+    <string name="entry_dismiss_call">拒绝来电</string>
+    <string name="summary_do_nothing">不产生任何作用</string>
+    <string name="summary_mute_ringer">停止响铃</string>
+    <string name="summary_dismiss_call">拒绝来电</string>
+
+    <!-- Integrated phone directory -->
+    <string name="enable_suggestions_title">主动建议</string>
+    <string name="enable_suggestions_summary">当在拨号见面搜索号码提示建议内容</string>
+    <string name="enable_reverse_lookup_title">反向搜索</string>
+    <string name="enable_reverse_lookup_summary">搜索未知号码的相关信息</string>
+
+    <string name="advanced_setting">高级设置</string>
+
+    <!-- Blacklist preferences -->
+    <string name="blacklist_title">黑名单</string>
+    <string name="blacklist_summary_disabled">关闭</string>
+    <string name="blacklist_summary">黑名单中的手机号码来电将会被屏蔽</string>
+
+    <!-- Blacklist notifications -->
+    <string name="blacklist_call_notification">阻挡了 %s 的来电</string>
+    <string name="blacklist_call_notification_private_number">阻挡了一个私人号码的来电</string>
+    <string name="blacklist_call_notification_unknown_number">阻挡了未知号码 %s</string>
+    <string name="blacklist_call_notification_multiple"><xliff:g id="count">%d</xliff:g> 个来电被阻挡</string>
+
+    <string name="blacklist_message_notification">来自于 %s 的信息已被阻止</string>
+    <string name="blacklist_message_notification_private_number">阻止来自于私人号码的信息</string>
+    <string name="blacklist_message_notification_unknown_number">来自于未知号码 %s 的信息已阻止</string>
+    <string name="blacklist_message_notification_multiple">已阻止<xliff:g id="count">%d</xliff:g> 条信息</string>
+    <string name="blacklist_notification_list_private">私人号码</string>
+    <string name="unblock_number">不阻挡号码</string>
+
+    <string name="quiet_hours_alarm_dismiss">停止响铃</string>
+    <string name="quiet_hours_alarm_and">" 和 "</string>
+    <string name="quiet_hours_alarm_dialog_title">静默时段例外</string>
+    <string name="quiet_hours_alarm_message">" 符合静默时段例外设置"</string>
+    <string name="quiet_hours_auto_sms_null">[自动回复信息] 稍后我会联系您。</string>
+    <string name="quiet_hours_sms_code_null">[铃声]</string>
+
+</resources>
